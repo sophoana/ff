@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.UnitTests", "FF.UnitTests\FF.UnitTests.csproj", "{844A340D-D15F-43EB-B321-3C49A40341DF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FF.Database", "FF.Database\FF.Database.sqlproj", "{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Contracts", "FF.Contracts\FF.Contracts.csproj", "{495133C4-ED34-4EA1-A437-DACC894C7353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Service", "FF.Service\FF.Service.csproj", "{15168704-956C-4DA8-A1A7-0E324CF7A2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Data", "FF.Data\FF.Data.csproj", "{390EC202-5DC1-4C02-B4E2-BC42800AADE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.API", "FF.API\FF.API.csproj", "{B15D8317-A8F5-4F26-9BBF-656614769379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Authentication", "FF.Authentication\FF.Authentication.csproj", "{603B415A-0B40-4B99-8856-5562A353ADF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844A340D-D15F-43EB-B321-3C49A40341DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844A340D-D15F-43EB-B321-3C49A40341DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844A340D-D15F-43EB-B321-3C49A40341DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844A340D-D15F-43EB-B321-3C49A40341DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CED2DEA-5041-4AB2-A1A6-672E32EFB333}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{495133C4-ED34-4EA1-A437-DACC894C7353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495133C4-ED34-4EA1-A437-DACC894C7353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495133C4-ED34-4EA1-A437-DACC894C7353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495133C4-ED34-4EA1-A437-DACC894C7353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15168704-956C-4DA8-A1A7-0E324CF7A2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15168704-956C-4DA8-A1A7-0E324CF7A2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15168704-956C-4DA8-A1A7-0E324CF7A2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15168704-956C-4DA8-A1A7-0E324CF7A2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390EC202-5DC1-4C02-B4E2-BC42800AADE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390EC202-5DC1-4C02-B4E2-BC42800AADE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390EC202-5DC1-4C02-B4E2-BC42800AADE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390EC202-5DC1-4C02-B4E2-BC42800AADE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15D8317-A8F5-4F26-9BBF-656614769379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15D8317-A8F5-4F26-9BBF-656614769379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15D8317-A8F5-4F26-9BBF-656614769379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15D8317-A8F5-4F26-9BBF-656614769379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603B415A-0B40-4B99-8856-5562A353ADF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603B415A-0B40-4B99-8856-5562A353ADF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603B415A-0B40-4B99-8856-5562A353ADF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603B415A-0B40-4B99-8856-5562A353ADF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://osmyn.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FF.UnitTests\\FF.UnitTests.csproj
+		SccProjectName1 = FF.UnitTests
+		SccLocalPath1 = FF.UnitTests
+		SccProjectUniqueName2 = FF.Database\\FF.Database.sqlproj
+		SccProjectName2 = FF.Database
+		SccLocalPath2 = FF.Database
+		SccProjectUniqueName3 = FF.Contracts\\FF.Contracts.csproj
+		SccProjectName3 = FF.Contracts
+		SccLocalPath3 = FF.Contracts
+		SccProjectUniqueName4 = FF.Service\\FF.Service.csproj
+		SccProjectName4 = FF.Service
+		SccLocalPath4 = FF.Service
+		SccProjectUniqueName5 = FF.Data\\FF.Data.csproj
+		SccProjectName5 = FF.Data
+		SccLocalPath5 = FF.Data
+		SccProjectUniqueName6 = FF.API\\FF.API.csproj
+		SccProjectName6 = FF.API
+		SccLocalPath6 = FF.API
+		SccProjectUniqueName7 = FF.Authentication\\FF.Authentication.csproj
+		SccProjectName7 = FF.Authentication
+		SccLocalPath7 = FF.Authentication
+	EndGlobalSection
+EndGlobal
